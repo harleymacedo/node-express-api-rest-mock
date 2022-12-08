@@ -5,6 +5,9 @@ const alunos = [
     {nome: 'Hugo', idade: 23},
     {nome: 'Diego', idade: 24},
     {nome: 'Maria', idade: 25},
+    {nome: 'Hugo', idade: 28},
+    {nome: 'Danilo', idade: 18},
+    {nome: 'Yolanda', idade: 19},
 ];
 
 alunoRouter.get('/aluno/todos', (req, res) => {
