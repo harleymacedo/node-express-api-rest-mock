@@ -7,7 +7,7 @@ const professores = [
     {nome: 'Maria', area: 'Programação'},
     {nome: 'Hugo', area: 'Engenharia de software'},
     {nome: 'Danilo', area: 'Programação web e mobile'},
-    {nome: 'Yolanda', idade: 'Engenharia de software'},
+    {nome: 'Yolanda', area: 'Engenharia de software'},
 ];
 
 professorRouter.get('/professor/todos', (req, res) => {
